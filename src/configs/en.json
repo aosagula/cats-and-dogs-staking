@@ -1,0 +1,60 @@
+{
+  "lang": "en",
+  "translation": {
+    "TITLE": "Cats & Dogs",
+    "STAKING": {
+      "TITLE": "Staking"
+    },
+    "TOKEN": {
+      "NAME": "$CAT"
+    },
+    "ACTIONS": {
+      "STAKE": "Stake",
+      "UNSTAKE": "Unstake",
+      "STAKE_ALL": "Stake All",
+      "UNSTAKE_ALL": "Unstake All",
+      "CLAIM": "Claim",
+      "CLAIM_ALL": "💰 Claim All",
+      "STAKE_NOW": "Stake Now"
+    },
+    "RATES": {
+      "ADVENTURE": "Adventure Rate",
+      "SCIENTIST": "Hitch Hiker Rate",
+      "DOCTOR": "Doctor Rate",
+      "SPECIALIST": "Specialist Rate",
+      "COMMANDER": "Wanderlust Rate",
+      "NORMAL": "Normal Rate",
+      "TOTAL_AMOUNT": "Total Staked",
+      "PER_DAY": "day"
+    },
+    "DASHBOARD": {
+      "STAKED_NFT_COUNT": "Your staked nfts"
+    },
+    "DESCRIPTION": {
+      "MODEL": "Model",
+      "RATE": "Rate",
+      "STAKED_TIME": "Staked Time",
+      "STAKED_DURATION": "Staked Duration",
+      "ROLE": "Symbol"
+    },
+    "LOCKDAYS": {
+      "7DAYS": "7 Days",
+      "14DAYS": "14 Days",
+      "30DAYS": "30 Days"
+    },
+    "MODELS": {
+      "1": {
+        "LABEL": "Locked for 15 Days (Model 1)",
+        "DESC": "Model 1 Description"
+      },
+      "2": {
+        "LABEL": "No Lock Day (Model 2)",
+        "DESC": "Model 2 Description"
+      },
+      "3": {
+        "LABEL": "Custom Lock Days (Model 3)",
+        "DESC": "Model 3 Description"
+      }
+    }
+  }
+}

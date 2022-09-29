@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(../assets/images/Home-Screen_bg.png);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-loading {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(12px);
+    background: #000000b3;
+    .loading-box {
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        box-shadow: $card-shadow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $back-color;
+    }
+}
+
+.dashboard-container {
+    min-height: calc(100vh - $header-height);
+}
+
+.MuiTypography-root {
+    font-family: $font-main !important;
+}
+
+.dialog-content {
+    padding: 40px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    p {
+        padding-left: 10px;
+    }
+}
+
+.nft-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h4 {
+        margin-left: 20px;
+        span {
+            font-size: 20px;
+        }
+    }
+}
+
+.align-center {
+    text-align: center;
+    margin-top: 10px;
+}

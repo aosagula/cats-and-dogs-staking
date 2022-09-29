@@ -1,0 +1,16 @@
+h2 {
+    font-size: 48px;
+    @media (max-width: 992px) {
+        font-size: 36px;
+    }
+    @media (max-width: 762px) {
+        font-size: 32px;
+    }
+}
+
+h6 {
+    font-weight: 700 !important;
+    font-size: .875rem !important;
+    line-height: 1.25rem !important;
+    letter-spacing: 0.0075em !important;
+}
